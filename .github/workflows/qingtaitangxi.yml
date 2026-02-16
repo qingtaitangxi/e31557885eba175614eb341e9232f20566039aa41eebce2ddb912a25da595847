@@ -1,24 +1,23 @@
 name: qingtaitangxi
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 5/6 * * *'
-
+    - cron: '11 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: qingtaitangxi
         env:
-          kxek6: ${{ secrets.kxek6 }}
+          iv1424: ${{ secrets.iv1424 }}
         run: |
-          echo $kxek6 | jq -r .bj7 | /bin/bash
-          echo $m25275 | jq -r .mqefu96 | /bin/bash
-          echo $bynxx61 | jq -r .oe603 | /bin/bash
-          echo $o1577 | jq -r .cryhd112 | /bin/bash
-          echo $ne61136 | jq -r .rcefq4 | /bin/bash
-          echo $cq799 | jq -r .xwz3 | /bin/bash
-          echo $vtb64028 | jq -r .k26 | /bin/bash
+          echo $iv1424 | jq -r .jz6550 | /bin/bash
+          echo $aq641 | jq -r .il4786 | /bin/bash
+          echo $xkf15145 | jq -r .kj459 | /bin/bash
+          echo $qxyk42041 | jq -r .pgpza1 | /bin/bash
+          echo $tr19 | jq -r .ke5 | /bin/bash
+          echo $isdmj20 | jq -r .lvzl890 | /bin/bash
+          echo $zdlhj11450 | jq -r .ly89011 | /bin/bash
 
